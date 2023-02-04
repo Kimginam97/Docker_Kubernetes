@@ -1,5 +1,5 @@
 # Docker Hub 에 node 이미지
-FROM node
+FROM node:14
 
 # Docker 모든 후속 명령이 해당폴더 내부에서 실행될것임을 알림
 WORKDIR /app
